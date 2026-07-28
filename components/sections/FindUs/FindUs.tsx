@@ -1,7 +1,7 @@
 export default function FindUs() {
   return (
-    <section>
-      Find Us Section
+    <section id="find-us">
+      {/* Map & Contact */}
     </section>
   );
 }

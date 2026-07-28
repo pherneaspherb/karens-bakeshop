@@ -1,7 +1,7 @@
 export default function Products() {
   return (
-    <section>
-      Products Section
+    <section id="products">
+      {/* Products content goes here */}
     </section>
   );
 }

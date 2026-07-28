@@ -1,3 +1,5 @@
+import HeroButtons from "./HeroButtons";
+
 export default function HeroContent() {
   return (
     <div className="mx-auto flex h-full max-w-7xl items-center px-6">
@@ -21,6 +23,8 @@ export default function HeroContent() {
           Every loaf, every cake, every pastry is handcrafted every morning
           with care, bringing fresh flavours to our community.
         </p>
+
+        <HeroButtons />
 
       </div>
     </div>

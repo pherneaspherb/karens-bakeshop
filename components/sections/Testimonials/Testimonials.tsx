@@ -1,7 +1,7 @@
 export default function Testimonials() {
   return (
-    <section>
-      Testimonials Section
+    <section id="testimonials">
+      {/* Testimonials */}
     </section>
   );
 }

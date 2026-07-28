@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Poppins, Geist } from "next/font/google";
 import "./globals.css";
-import { cn } from "@/lib/utils";
+import { cn } from "@/components/lib/utils";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 

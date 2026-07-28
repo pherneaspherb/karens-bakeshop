@@ -1,5 +1,6 @@
 import Image from "next/image";
 import HeroContent from "./HeroContent";
+import HeroFloatingCard from "./HeroFloatingCard";
 
 export default function Hero() {
   return (
@@ -17,8 +18,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Content */}
-      <div className="relative z-10 h-full">
+      <div className="relative z-10 mx-auto grid h-full max-w-7xl items-center gap-20 px-6 lg:grid-cols-2">
         <HeroContent />
+        <HeroFloatingCard />
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 import PeekImage from "./PeekImage";
 
+
 export default function PeekInsideLayout() {
   return (
     <div className="mt-12 mx-auto max-w-6xl">

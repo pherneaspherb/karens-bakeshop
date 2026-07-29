@@ -13,7 +13,14 @@ export default function Navbar() {
         <DesktopNav />
 
         <div className="flex items-center gap-4">
-          <button className="hidden rounded-full bg-[#A65A2E] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#8A4923] lg:block">
+          <button
+            onClick={() => {
+              document
+                .getElementById("find-us")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            className="hidden rounded-full bg-[#A65A2E] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#8A4923] lg:block"
+          >
             Visit Us
           </button>
 

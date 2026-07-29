@@ -14,7 +14,7 @@ export default function HeroButtons() {
       </Link>
 
       <Link
-        href="#story"
+        href="#why-us"
         className="rounded-full border border-white px-7 py-4 font-semibold text-white transition-all duration-300 hover:bg-white hover:text-[var(--dark)]"
       >
         Our Story

@@ -16,13 +16,13 @@ export const whyUs = [
     icon: Leaf,
     title: "Quality Ingredients",
     description:
-      "Local flour, fresh eggs, and premium butter. We never compromise on quality.",
+      "Local stone-milled flour, pasture-raised eggs, and premium butter.",
   },
   {
     icon: BadgeDollarSign,
     title: "Honest Prices",
     description:
-      "Premium baking shouldn't mean premium prices. Great bread should be for everyone.",
+      "Premium quality without premium prices. Great bread should be for everyone.",
   },
   {
     icon: HeartHandshake,

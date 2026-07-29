@@ -9,6 +9,7 @@ import FindUs from "@/components/sections/FindUs/FindUs";
 
 import Footer from "@/components/layout/Footer";
 import StatsBar from "@/components/sections/StatsBar/StatsBar";
+import WhyUs from "@/components/sections/WhyUs/WhyUs";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero />
       <StatsBar />
       <FeaturedProducts />
+      <WhyUs />
       <WhyChooseUs />
       <Gallery />
       <Testimonials />

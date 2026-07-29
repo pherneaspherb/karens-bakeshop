@@ -4,7 +4,7 @@ import HeroFloatingCard from "./HeroFloatingCard";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative min-h-screen w-full overflow-hidden">
       {/* Background Image */}
       <Image
         src="/images/hero/hero-bg.jpg"
@@ -18,9 +18,11 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50" />
 
       {/* Content */}
-      <div className="relative z-10 mx-auto grid h-full max-w-7xl items-center gap-20 px-6 lg:grid-cols-2">
+      <div className="relative z-10 mx-auto grid min-h-screen max-w-7xl items-center gap-12 px-6 py-28 lg:grid-cols-2 lg:gap-20">
         <HeroContent />
-        <HeroFloatingCard />
+        <div className="hidden lg:block">
+          <HeroFloatingCard />
+        </div>
       </div>
     </section>
   );

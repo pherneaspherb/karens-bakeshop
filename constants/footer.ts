@@ -7,9 +7,9 @@ export const navigationLinks = [
 ];
 
 export const productLinks = [
-  { label: "Artisan Breads", href: "#" },
-  { label: "Celebration Cakes", href: "#" },
-  { label: "Croissants & Pastries", href: "#" },
+  { label: "Spanish Roll", href: "#" },
+  { label: "Cheese Roll", href: "#" },
+  { label: "Ensaymada", href: "#" },
   { label: "Seasonal Specials", href: "#" },
   { label: "Morning Pastries", href: "#" },
 ];

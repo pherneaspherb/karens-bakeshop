@@ -10,29 +10,29 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Sarah Middleton",
-    location: "Maple Grove",
-    initials: "SM",
+    name: "Phoebe",
+    location: "Brgy. Tiring",
+    initials: "PR",
     rating: 5,
     quote:
-      "Karen's sourdough is the only bread my family will eat now. We pick up two loaves every Saturday and they're gone by Sunday morning. Honestly life-changing.",
+      "Hindi kumpleto ang merienda namin without Karen's Spanish Roll. Isang box pa lang, ubos agad! Soft, buttery, at tamang-tama ang tamis.",
   },
   {
     id: 2,
-    name: "Daniel Brooks",
-    location: "Riverside",
-    initials: "DB",
+    name: "Bukay",
+    location: "Brgy. Tiring",
+    initials: "BA",
     rating: 5,
     quote:
-      "The croissants are buttery, flaky, and always fresh. It's become our Saturday morning tradition to stop by Karen's before heading to the market.",
+      "Hindi nawawala ang Karen's Ensaymada sa weekend namin. Ang lambot, ang buttery, at ang generous ng cheese—perfect partner sa kape.",
   },
   {
     id: 3,
-    name: "Emily Carter",
-    location: "Oakwood",
-    initials: "EC",
+    name: "Bonsay",
+    location: "Brgy. Manguna",
+    initials: "YS",
     rating: 5,
     quote:
-      "Every birthday cake we've ordered has been beautiful and delicious. Karen's Bakeshop never disappoints and the staff are always welcoming.",
+      "Parang bumabalik ako sa pagkabata sa bawat kagat ng Karen's Pandesal. Malambot, bagong luto, at talagang nakaka-comfort.",
   },
 ];

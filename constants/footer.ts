@@ -1,7 +1,7 @@
 export const navigationLinks = [
-  { label: "Our Story", href: "#about" },
+  { label: "Home", href: "#about" },
   { label: "Products", href: "#products" },
-  { label: "Gallery", href: "#gallery" },
+  { label: "Gallery", href: "#peek-inside" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Find Us", href: "#find-us" },
 ];
